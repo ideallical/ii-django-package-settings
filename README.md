@@ -29,8 +29,6 @@ Create a `settings.py` file in the root of your package with the following
 content (based on [ii-django-backup]):
 
 ```python
-from django.conf import settings
-
 from ii_django_package_settings.settings import PackageSettings
 
 
