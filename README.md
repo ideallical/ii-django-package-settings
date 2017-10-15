@@ -36,7 +36,7 @@ from ii_django_package_settings.settings import PackageSettings
 
 class BackupSettings(PackageSettings):
     NAME = 'II_DJANGO_BACKUP'
-    DOC = 'https://github.com/ideallical/ii-django-package-settings/'
+    DOC = 'https://github.com/ideallical/ii-django-backup/'
     DEFAULTS = {
         'NAME_GENERATOR_FUNC': 'ii_django_backup.name_generators.default',
         'DROPBOX_ACCESS_TOKEN': None,
