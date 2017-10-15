@@ -26,7 +26,7 @@ setup(
 ## Configuration for your Django package
 
 Create a `settings.py` file in the root of your package with the following
-content (based on ii-django-backup):
+content (based on [ii-django-backup]):
 
 ```python
 from django.conf import settings
@@ -61,3 +61,4 @@ backup_settings.DROPBOX_ACCESS_TOKEN
 [pypi-version]: https://img.shields.io/pypi/v/ii-django-package-settings.svg
 [pypi]: https://pypi.python.org/pypi/ii-django-package-settings
 [django-restframework]: https://github.com/encode/django-rest-framework
+[ii-django-backup]: https://github.com/ideallical/ii-django-backup
