@@ -17,7 +17,7 @@ Install in your package's `setup.py`:
 setup(
     [..]
     install_requires=[
-        'ii-django-package-settings>=0.1'
+        'ii-django-package-settings>=0.2'
     ],
     [..]
 )

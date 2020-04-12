@@ -1,6 +1,6 @@
 # License
 
-Copyright (c) 2017, ideallical
+Copyright (c) 2020, ideallical
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

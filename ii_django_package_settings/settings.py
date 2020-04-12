@@ -1,9 +1,6 @@
-from __future__ import unicode_literals
-
 from importlib import import_module
 
 from django.conf import settings
-from django.utils import six
 
 
 def perform_import(val, setting_name, setting_label):
@@ -13,7 +10,7 @@ def perform_import(val, setting_name, setting_label):
     """
     if val is None:
         return None
-    elif isinstance(val, six.string_types):
+    elif isinstance(val, str):
         return import_from_string(val, setting_name, setting_label)
     elif isinstance(val, (list, tuple)):
         return [import_from_string(
